@@ -13,4 +13,4 @@ services:
       - key: N8N_BASIC_AUTH_USER
         value: Saketh_Gottimukkula
       - key: N8N_BASIC_AUTH_PASSWORD
-        value: Saketh$2008
+        value: "Saketh$2008"
