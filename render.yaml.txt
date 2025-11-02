@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: n8n-render
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
+    envVars:
+      - key: WEBHOOK_URL
+        value: https://n8n-render-i3r2.onrender.com
+      - key: N8N_BASIC_AUTH_ACTIVE
+        value: true
+      - key: N8N_BASIC_AUTH_USER
+        value: Saketh_Gottimukkula
+      - key: N8N_BASIC_AUTH_PASSWORD
+        value: Saketh$2008

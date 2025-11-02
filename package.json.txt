@@ -1,0 +1,12 @@
+{
+  "name": "n8n-render",
+  "version": "1.0.0",
+  "description": "Self-hosted n8n instance on Render",
+  "main": "index.js",
+  "scripts": {
+    "start": "n8n start --tunnel"
+  },
+  "dependencies": {
+    "n8n": "^1.61.1"
+  }
+}
